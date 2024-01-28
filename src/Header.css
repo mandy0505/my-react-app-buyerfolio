@@ -1,0 +1,83 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #7731E4;
+  color: white;
+}
+
+.logo img {
+  width: 50px; /* Adjust as needed */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+ 
+  margin-right: 100px; /* Adjusted margin */
+}
+
+input {
+  padding: 10px; /* Increased padding */
+  margin-right: 10px; /* Adjust margin for spacing */
+  border: none;
+  border-radius: 5px;
+}
+
+.search-icons {
+  display: flex;
+  align-items: center;
+  
+}
+
+.icon {
+  margin-right: 20px; /* Adjust margin for spacing */
+  cursor: pointer;
+}
+
+.profile-icon {
+  position: relative;
+ 
+}
+
+.bell-icon {
+  width: 40px; /* Increased width */
+  height: 40px; /* Increased height */
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.black-list li {
+  color: black; /* Set the desired color */
+}
+
+.profile-icon:hover .dropdown {
+  display: block;
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown li {
+  padding: 15px; /* Increased padding */
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: #eee;
+}

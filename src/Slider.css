@@ -1,0 +1,63 @@
+/* Slider.css */
+
+.slide-border{
+    margin-top: 400px;
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 800px;
+    float:right;
+    
+}
+.slider-container {
+    width: 45vh;
+    margin-left: auto;
+    /* margin-left: 0; */ /* Remove this line or set it to 0 */
+    font-size: 18;
+    width: 500px;
+    margin-right: 10px;
+    
+}
+
+.slider1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.slider2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+.slider3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+.slider4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+.slider5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+/* Styles for the slider */
+input[type="range"] {
+    width: 100%;
+    color: #7731E4;
+}
+
+/* Move the slider container to the right */
+@media (min-width: 600px) {
+    .slider-container {
+        
+        float: right;
+        color: #0b0b0b;
+        
+
+    }
+}

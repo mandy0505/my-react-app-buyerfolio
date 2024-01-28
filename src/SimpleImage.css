@@ -1,0 +1,222 @@
+/* SimpleImage.css */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: space-between; /* Create even spacing between images */
+  }
+  
+  .ima {
+    width: 100%;
+    max-height: 500px; /* Set a larger maximum height */
+    object-fit: cover;
+    margin-right: 5px;
+  }
+  
+  /* Increase the width and height of additional images */
+  .additional-image {
+    width: 100%;
+    max-height: 500px; /* Set a larger maximum height */
+    object-fit: cover;
+    margin-left: 5px;
+    margin-right:5px;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.text-map-container {
+  display: flex;
+  width: 90vh;
+  height: 27vh;
+  flex-direction: row; /* Adjusted to row for horizontal alignment */
+  float: left;
+  margin-right: 75vh;
+  border: 2px solid #000;
+  margin-top: 15px;
+
+
+}
+
+.text-container {
+  width: 50%;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #7731E4;
+}
+
+.map-container {
+  margin-top: 10px;
+  width: 60%;
+  height: 170px;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  
+}
+
+  .additional-content {
+    margin-top: 10px;
+    max-width: 50%; /* Increase the width as needed */
+    text-align: left;
+    margin-right: 550px; /* Remove the right margin or set it to 0 */
+    height: 1500px; /* Increase the height as needed */
+}
+
+.additional-content-container {
+    border: 2px solid #000;
+    padding: 10px; /* Increase the padding as needed */
+    box-sizing: border-box;
+    max-width: 52%; /* Increase the width as needed */
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 600px; /* Remove the right margin or set it to 0 */
+    height: 170px; /* Increase the height as needed */
+}
+
+.comp {
+    margin-top: 20px;
+    height: 30vh; /* Increase the height as needed */
+    max-width: 90vh; /* Increase the width as needed */
+    margin-right: 600px; /* Remove the right margin or set it to 0 */
+    border: 2px solid #000;
+ }
+
+
+ .same {
+  margin-top: 20px;
+  height: 250px; /* 75% of the viewport height */
+  width: 150%; /* 75% of the viewport width */
+  max-width: 70vh; /* Set a maximum width if needed */
+  margin-right: 300px; /* Center horizontally */
+  margin-left: 0px; /* Move to the left */
+  border: 2px solid #000;
+}
+
+.all {
+  margin-top: 20px;
+  height: 80vh; /* 75% of the viewport height */
+  width: 150%; /* 75% of the viewport width */
+  max-width: 85vh; /* Set a maximum width if needed */
+  margin-right: 300px; /* Center horizontally */
+  margin-left: 0px; /* Move to the left */
+  border: 2px solid #000;
+}
+
+
+/* PropertyDetails.css */
+
+/* Border for the complete property details and home details */
+.details-border {
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 30px; /* Adjust the top margin as needed */
+  text-align: left;
+  float: left;
+  margin-right: 600px;
+  width: 100vh;
+}
+
+/* Wrapper for both property details and home details */
+/* PropertyDetails.css */
+
+.property-details-wrapper {
+  width: 65%; /* Adjust the width as needed */
+  text-align: left;
+  margin-left: 0; /* Move to the left */
+}
+
+.property-details-container {
+  width: 40%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: -20px; /* Decrease the margin-bottom to push it up */
+}
+
+.property-details-slider-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0;
+}
+
+.slider-container {
+  width: 48%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* Common styles for all toggles */
+.details-heading {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 5px; /* Add margin to separate toggles */
+}
+
+.expand-toggle {
+  cursor: pointer;
+  text-align: left;
+}
+
+.expanded-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0; /* Set the left margin to 0 for expanded details */
+  text-align: left;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row; /* Keep it as row to display content side by side */
+  text-align: left;
+}
+
+.details-column {
+  flex: 1;
+  padding: 0 10px;
+  text-align: left;
+}
+
+/* Additional styles for better spacing */
+.left-aligned-heading {
+  margin-bottom: 5px; /* Add margin to left-aligned headings */
+}
+
+/* Adjusted left margin for the entire layout */
+.adjusted-layout {
+  margin-left: 20px; /* Increase the left margin for the entire layout */
+}
+
+/* New text section styling */
+.details-text {
+  margin-top: 20px; /* Adjust the top margin as needed */
+  text-align: left;
+}
